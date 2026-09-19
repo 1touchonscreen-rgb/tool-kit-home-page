@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Title Case Converter | My Toolkit</title>
+
+    <meta
+        name="description"
+        content="Convert text between title case, uppercase, lowercase and sentence case with this simple online tool."
+    >
+
+    <link rel="stylesheet" href="css/Case-Convert.css">
+    <link rel="stylesheet" href="css/ads.css">
+
+</head>
+
+<body>
+
+
+<!-- =========================================
+     HEADER
+========================================= -->
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <a href="index.html" class="logo">
+            <span>My</span> Toolkit
+        </a>
+
+        <nav class="main-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#tools">
+                Tools
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <span class="badge">
+            ✨ Case Converter
+        </span>
+
+        <h1>
+            Convert To Title Case
+        </h1>
+
+        <p>
+            Type your text here, choose a case conversion,
+            and get the result you want.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     TOOL AREA
+     LEFT AD | TOOL | RIGHT AD
+========================================= -->
+
+<main class="tool-page">
+
+    <div class="tool-layout">
+
+
+          <!-- =================================
+             LEFT PRODUCT AD
+        ================================== -->
+
+<aside class="side-ad">
+
+    <div class="ad-label">
+        Advertisement
+    </div>
+
+    <div class="ad-content">
+        <!-- Ad content will be loaded automatically by JavaScript -->
+    </div>
+
+</aside>
+
+
+
+        <!-- =================================
+             MAIN TOOL
+        ================================== -->
+
+        <div class="container">
+
+            <div class="tool-box">
+
+
+                <!-- INPUT -->
+
+                <h2>
+                    Input – Type Here Your Text
+                </h2>
+
+                <textarea
+                    id="inputText"
+                    rows="6"
+                    placeholder="Enter your content here..."
+                ></textarea>
+
+
+
+                <!-- CONVERSION BUTTONS -->
+
+                <div class="conversion-buttons">
+
+                    <button
+                        onclick="convertToTitleCase()"
+                        class="convert-button"
+                    >
+                        Convert to Title Case
+                    </button>
+
+                    <button
+                        onclick="convertToUpperCase()"
+                        class="convert-button"
+                    >
+                        Convert to Upper Case
+                    </button>
+
+                    <button
+                        onclick="convertToLowerCase()"
+                        class="convert-button"
+                    >
+                        Convert to Lower Case
+                    </button>
+
+                    <button
+                        onclick="convertToSentenceCase()"
+                        class="convert-button"
+                    >
+                        Convert to Sentence Case
+                    </button>
+
+                </div>
+
+
+
+                <!-- OUTPUT -->
+
+                <h2 class="output-title">
+                    Output
+                </h2>
+
+                <textarea
+                    id="outputText"
+                    rows="6"
+                    readonly
+                    placeholder="Your converted text will appear here..."
+                ></textarea>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================
+             RIGHT PRODUCT AD
+        ================================== -->
+
+      <aside class="side-ad">
+
+    <div class="ad-label">
+        Advertisement
+    </div>
+
+    <div class="ad-content">
+        <!-- Ad content will be loaded automatically by JavaScript -->
+    </div>
+
+</aside>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         BOTTOM PRODUCT AD
+    ========================================= -->
+
+    <section class="bottom-ad-section">
+
+        <div class="bottom-ad">
+
+            <div class="ad-label">
+                Advertisement
+            </div>
+
+            <div class="bottom-ad-content">
+
+                <div class="bottom-ad-image">
+                    PRODUCT ADVERTISEMENT
+                </div>
+
+                <div class="bottom-ad-info">
+
+                    <h3>
+                        Product Advertisement
+                    </h3>
+
+                    <p>
+                        Promote your products here and send
+                        visitors directly to your product website.
+                    </p>
+
+                    <a href="#" class="ad-button">
+                        View Product →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div>
+
+            <a href="index.html" class="footer-logo">
+                My Toolkit
+            </a>
+
+            <p>
+                Simple tools for everyday web work.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#tools">
+                Tools
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+        </div>
+
+
+        <div class="footer-copy">
+
+            <p>
+                © 2027 My Toolkit
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================
+     JAVASCRIPT
+========================================= -->
+
+<script src="js/Case-Convert.js"></script>
+<script src="js/ads.js"></script>
+<script src="js/index-ads.js"></script>
+
+
+</body>
+</html>
