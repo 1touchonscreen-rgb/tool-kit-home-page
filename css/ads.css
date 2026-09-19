@@ -1,0 +1,85 @@
+/* =========================================
+   PRODUCT AD IMAGE
+========================================= */
+
+.ad-product-image {
+    width: 100%;
+    max-width: 150px;
+    height: 145px;
+
+    object-fit: contain;
+    display: block;
+
+    margin: 0 auto 12px;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   SIDE ADS
+========================================= */
+
+.side-ad {
+    width: 100%;
+}
+
+.ad-label {
+    text-align: center;
+
+    color: #999;
+
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    margin-bottom: 8px;
+}
+
+.ad-content {
+    min-height: 0;
+
+    padding: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e5eb;
+    border-radius: 14px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 18px rgba(0,0,0,0.04);
+}
+
+
+/* =========================================
+   CLICKABLE PRODUCT AD
+========================================= */
+
+.ad-product-link {
+    display: block;
+
+    color: inherit;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.ad-product-link h3 {
+    font-size: 15px;
+    line-height: 1.4;
+
+    margin: 0;
+
+    color: #222;
+}
+
+
+/* =========================================
+   HOVER EFFECT
+========================================= */
+
+.ad-product-link:hover h3 {
+    color: #6d28d9;
+}
